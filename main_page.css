@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+.page{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'main sidebar'
+    'footer footer';
+    grid-template-columns: 3fr 1fr;
+    height: 100vh; /* vh = wiewport height. 100vh = full screen height */
+    grid-template-rows: auto 1fr auto; /* auto = size to fit. 1fr in this case will use the rest*/
+    gap: 10px; /* space between grid items*/
+    padding: 10px;
+
+}
+
+
+
+header{
+    grid-area: header;
+    color: orange;
+    background-color: grey;
+    text-align: center;
+    font-size: 2em;
+    position: sticky;
+
+}
+
+
+aside{
+    grid-area: sidebar;
+    background-color: darkgrey;
+    align-self: right;
+    justify-content: right;
+}
+
+main{
+    grid-area: main;
+    background-color: burlywood;
+    overflow: auto;
+    
+    
+}
+
+footer{
+    grid-area: footer;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+.sidebar{
+    position: relative;
+    
+}
+
+.button1{
+    background-color: darkgray;
+    border: 0;
+    font-size: 35px;
+    color: wheat;
+    
+}
+
+.button2{
+    background-color: darkgray;
+    border: 0;
+    font-size: 35px;
+    color: wheat;
+    
+}
+
+.pages-header{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.pages-list{
+    text-align: left;
+}
