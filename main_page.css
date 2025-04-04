@@ -14,9 +14,9 @@ body{
     'main sidebar'
     'footer footer';
     grid-template-columns: 3fr 1fr;
-    height: 100vh; /* vh = wiewport height. 100vh = full screen height */
-    grid-template-rows: auto 1fr auto; /* auto = size to fit. 1fr in this case will use the rest*/
-    gap: 10px; /* space between grid items*/
+    height: 100vh;
+    grid-template-rows: auto 1fr auto; 
+    gap: 10px; 
     padding: 10px;
 
 }
@@ -60,6 +60,8 @@ footer{
     z-index: 2;
 }
 
+
+
 .sidebar{
     position: relative;
     
@@ -88,5 +90,28 @@ footer{
 }
 
 .pages-list{
-    text-align: left;
+    text-align: center;
+    justify-content: space-between;
+    background-color: grey;
+
+}
+
+.about-repo-header{
+    text-align: center;
+    font-size: 2em;
+    color: maroon;
+}
+
+.about-paragraph{
+    color: maroon;
+    font-size: larger;
+    text-align: center;
+}
+
+.levels-paragraph{
+    color: maroon;
+    font-size: larger;
+    text-align: center;
+    border: black;
+    border-bottom: 5px;
 }
