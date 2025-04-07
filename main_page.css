@@ -16,9 +16,8 @@ body{
     grid-template-columns: 3fr 1fr;
     height: 100vh;
     grid-template-rows: auto 1fr auto; 
-    gap: 10px; 
-    padding: 10px;
-
+    gap: 5px; 
+    padding: 5px;
 }
 
 
@@ -30,7 +29,11 @@ header{
     text-align: center;
     font-size: 2em;
     position: sticky;
-
+    padding: 5px;
+    height: 225px;
+    top: 0;
+    z-index: 2;
+    border: 5px solid black; 
 }
 
 
@@ -39,14 +42,15 @@ aside{
     background-color: darkgrey;
     align-self: right;
     justify-content: right;
+    padding: 5px;
+    border: 5px solid black; 
 }
 
 main{
     grid-area: main;
     background-color: burlywood;
-    overflow: auto;
-    
-    
+    padding: 10px;
+    border: 5px solid black; 
 }
 
 footer{
@@ -58,36 +62,35 @@ footer{
     bottom: 0px;
     width: 100%;
     z-index: 2;
+    padding: 10px;
+    border: 5px solid black; 
 }
+
 
 
 
 .sidebar{
     position: relative;
+
     
 }
 
 .button1{
-    background-color: darkgray;
+    background-color: gray;
     border: 0;
-    font-size: 35px;
+    font-size: 25px;
     color: wheat;
     
 }
 
 .button2{
-    background-color: darkgray;
+    background-color: grey;
     border: 0;
-    font-size: 35px;
+    font-size: 25px;
     color: wheat;
     
 }
 
-.pages-header{
-    font-size: 60px;
-    text-align: center;
-    color: white;
-}
 
 .pages-list{
     text-align: center;
@@ -114,4 +117,29 @@ footer{
     text-align: center;
     border: black;
     border-bottom: 5px;
+}
+
+.img{
+    float: right;
+    padding: 10px;
+
+    margin: 20px;
+    
+}
+
+.video-header{
+    color: maroon;
+    border: 10px;
+    padding: 10px;
+}
+
+.sidebar-header{
+    text-align: center;
+    color: brown;
+    font-size: 2em;
+}
+
+.devices-list{
+    color: brown;
+    font-size: 25px;
 }
