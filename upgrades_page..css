@@ -58,7 +58,6 @@ footer{
     background-color: gray;
     color: white;
     text-align: center;
-    position: fixed;
     bottom: 0px;
     width: 100%;
     z-index: 2;
@@ -69,26 +68,16 @@ footer{
 
 
 
-.sidebar{
-    position: relative;
-
-    
-}
-
-.button1{
-    background-color: gray;
-    border: 0;
-    font-size: 25px;
-    color: wheat;
-    
-}
-
-.button2{
-    background-color: grey;
-    border: 0;
-    font-size: 25px;
-    color: wheat;
-    
+/* Header css*/
+.flex-item{
+    background: grey;
+    color: orange;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    flex-basis: 30%;
+    flex-grow: 1;
+    min-width: 200px;
 }
 
 
@@ -99,47 +88,153 @@ footer{
 
 }
 
-.about-repo-header{
+/* Sidebar css*/
+.aside-header{
+    color: chartreuse;
     text-align: center;
-    font-size: 2em;
-    color: maroon;
+    font-size: 35px;
 }
 
-.about-paragraph{
-    color: maroon;
-    font-size: larger;
-    text-align: center;
-}
 
-.levels-paragraph{
-    color: maroon;
-    font-size: larger;
-    text-align: center;
-    border: black;
-    border-bottom: 5px;
-}
 
-.img{
-    float: right;
-    padding: 10px;
-
-    margin: 20px;
-    
-}
-
-.video-header{
-    color: maroon;
-    border: 10px;
-    padding: 10px;
-}
-
-.sidebar-header{
-    text-align: center;
-    color: brown;
-    font-size: 2em;
-}
-
-.devices-list{
-    color: brown;
+.upgrade-list{
+    color: chartreuse;
+    text-align: left;
     font-size: 25px;
+}
+
+/* Main content css*/
+
+.overflow{
+    overflow: auto;
+}
+
+.upgrades-header{
+    color: coral;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* stamina css*/
+.stam-header{
+    color: coral;
+    text-align: center;
+    font-size: 35px;
+}
+
+.stam-list{
+    color: coral;
+    font-size: 25px;
+}
+
+/* health css*/
+.health-img{
+    width: 450px;
+}
+
+.health-header{
+    color: coral;
+    text-align: center;
+    font-size: 35px;
+}
+
+.health-list{
+    color: coral;
+    font-size: 25px;
+}
+
+/* Sprint Speed css*/
+.sprint-speed-header{
+    color: coral;
+    text-align: center;
+    font-size: 35px;
+}
+
+.sprint-speed-list{
+    color: coral;
+    font-size: 25px;
+}
+
+.sprint-speed-img{
+    width: 450px;
+}
+
+/* Strength css*/
+.strength-header{
+    color: coral;
+    text-align: center;
+    font-size: 35px;
+}
+
+.strength-list{
+    color: coral;
+    font-size: 25px;
+}
+
+.strength-img{
+    width: 450px;
+}
+
+/* Range css*/
+.range-header{
+    color: coral;
+    text-align: center;
+    font-size: 35px;
+}
+
+.range-list{
+    color: coral;
+    font-size: 25px;
+}
+
+.range-img{
+    width: 250px;
+}
+
+/* Tumble Launch css*/
+.tumble-launch-header{
+    color: coral;
+    text-align: center;
+    font-size: 35px;
+}
+
+.tumble-launch-list{
+    color: coral;
+    font-size: 25px;
+}
+
+.tumble-launch-img{
+    width: 350px;
+}
+
+/* Extra Jump css*/
+.extra-jump-header{
+    color: coral;
+    text-align: center;
+    font-size: 35px;
+}
+
+.extra-jump-list{
+    color: coral;
+    font-size: 25px;
+}
+
+.extra-jump-img{
+    width: 450px;
+}
+
+/* Map Player Count css*/
+.map-player-count-header{
+    color: coral;
+    text-align: center;
+    font-size: 35px;
+}
+
+.map-player-count-list{
+    color: coral;
+    font-size: 25px;
+}
+
+.map-player-count-img{
+    width: 450px;
 }
